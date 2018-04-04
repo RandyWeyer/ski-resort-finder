@@ -764,6 +764,640 @@
 // END OF NEW JERSEY
 // BEGINNING OF NEW YORK
 {
+"name":"Belleayre Ski Center",
+"nearestTown":"Kingston",
+"state":"New york",
+"lat":42.142214,
+"long":-74.510778,
+"baseElevation":2024,
+"verticalFeet":1404,
+"runs":52,
+"website":"http://www.belleayre.com/",
+}
+{
+"name":"Bristol Mountain Ski Resort",
+"nearestTown":"Canandaigua",
+"state":"New York",
+"lat":42.745,
+"long":-77.404444,
+"baseElevation":1000,
+"verticalFeet":1150,
+"runs":35,
+"website":"http://www.bristolmountain.com/",
+}
+{
+"name":"Catamount Ski Area",
+"nearestTown":"Great Barrington",
+"state":"New York",
+"lat":42.171457,
+"long":-73.477764,
+"baseElevation":1000,
+"verticalFeet":1000,
+"runs":36,
+"website":"http://www.catamountski.com/",
+}
+{
+"name":"Gore Mountain",
+"nearestTown":"Glen Falls",
+"state":"New York",
+"lat":43.672222,
+"long":-74.006944,
+"baseElevation":998,
+"verticalFeet":2537,
+"runs":109,
+"website":"http://www.goremountain.com/",
+}
+{
+"name":"Greek Peak Mountain Resort",
+"nearestTown":"Virgil",
+"state":"New York",
+"lat":42.5086,
+"long":-76.146049,
+"baseElevation":1148,
+"verticalFeet":952,
+"runs":55,
+"website":"http://greekpeak.net/",
+}
+{
+"name":"Holiday Valley",
+"nearestTown":"Buffalo",
+"state":"New York",
+"lat":42.2625,
+"long":-78.668056,
+"baseElevation":1500,
+"verticalFeet":750,
+"runs":58,
+"website":"https://www.holidayvalley.com/",
+}
+{
+"name":"Hunter Mountain",
+"nearestTown":"Kingston",
+"state":"New York",
+"lat":42.200278,
+"long":-74.230278,
+"baseElevation":1600,
+"verticalFeet":1600,
+"runs":58,
+"website":"https://www.huntermtn.com/",
+}
+{
+"name":"McCauley Mountain",
+"nearestTown":"Webb",
+"state":"New York",
+"lat":43.696111,
+"long":-74.961389,
+"baseElevation":null,
+"verticalFeet":633,
+"runs":21,
+"website":"http://www.mccauleyny.com/mountain.html",
+}
+{
+"name":"Peek'n Peak",
+"nearestTown":"Erie",
+"state":"New York",
+"lat":42.0625,
+"long":-79.736667,
+"baseElevation":1400,
+"verticalFeet":400,
+"runs":27,
+"website":"https://www.pknpk.com/",
+}
+{
+"name":"Plattekill Mountain",
+"nearestTown":"Roxbury",
+"state":"New York",
+"lat":42.290251,
+"long":-74.653678,
+"baseElevation":2400,
+"verticalFeet":1100,
+"runs":38,
+"website":"http://plattekill.com/",
+}
+{
+"name":"Thunder Ridge Ski Area",
+"nearestTown":"Patterson",
+"state":"New York",
+"lat":41.507222,
+"long":-73.581111,
+"baseElevation":670,
+"verticalFeet":600,
+"runs":21,
+"website":"http://www.thunderridgeski.com/",
+}
+{
+"name":"Titus Mountain",
+"nearestTown":"Malone",
+"state":"New York",
+"lat":44.763333,
+"long":-74.235278,
+"baseElevation":825,
+"verticalFeet":1200,
+"runs":50,
+"website":"https://www.titusmountain.com/",
+}
+{
+"name":"West Mountain",
+"nearestTown":"Queensbury",
+"state":"New York",
+"lat":43.285556,
+"long":-73.728333,
+"baseElevation":460,
+"verticalFeet":1010,
+"runs":25,
+"website":"https://www.westmtn.net/",
+}
+{
+"name":"Whiteface Mountain",
+"nearestTown":"Lake Placid",
+"state":"New York",
+"lat":44.365833,
+"long":-73.902778,
+"baseElevation":1220,
+"verticalFeet":3430,
+"runs":87,
+"website":"http://www.whiteface.com/",
+}
+{
+"name":"Windham Mountain",
+"nearestTown":"Windham",
+"state":"New York",
+"lat":42.291667,
+"long":-74.259444,
+"baseElevation":1500,
+"verticalFeet":1600,
+"runs":54,
+"website":"http://www.windhammountain.com/",
+}
+// END OF NEW YORK
+// BEGINNING OF PENNSYLVANIA
+{
+"name":"Bear Creek Ski and Recreation Area",
+"nearestTown":"Allentown",
+"state":"Pennsylvania",
+"lat":40.476111,
+"long":-75.625833,
+"baseElevation":590,
+"verticalFeet":510,
+"runs":21,
+"website":"https://www.bcmountainresort.com/",
+}
+{
+"name":"Blue Mountain Ski Area",
+"nearestTown":"Palmerton",
+"state":"Pennsylvania",
+"lat":40.822222,
+"long":-75.513333,
+"baseElevation":458,
+"verticalFeet":1082,
+"runs":39,
+"website":"https://www.skibluemt.com/",
+}
+{
+"name":"Camelback Mountain Resort",
+"nearestTown":"Scranton",
+"state":"Pennsylvania",
+"lat":41.051389,
+"long":-75.355278,
+"baseElevation":1333,
+"verticalFeet":800,
+"runs":35,
+"website":"http://www.skicamelback.com",
+}
+{
+"name":"Elk Mountain Ski Area",
+"nearestTown":"Scranton",
+"state":"Pennsylvania",
+"lat":41.721,
+"long":-75.559,
+"baseElevation":1742,
+"verticalFeet":925,
+"runs":27,
+"website":"https://www.elkskier.com/",
+}
+{
+"name":"Hidden Valley Resort",
+"nearestTown":"Hidden Valley",
+"state":"Pennsylvania",
+"lat":40.058042,
+"long":-79.258277,
+"baseElevation":2405,
+"verticalFeet":470,
+"runs":26,
+"website":"http://www.hiddenvalleyresort.com/",
+}
+{
+"name":"Laurel Mountain Ski Resort",
+"nearestTown":"Ligonier",
+"state":"Pennsylvania",
+"lat":40.163578,
+"long":-79.165300,
+"baseElevation":2000,
+"verticalFeet":800,
+"runs":20,
+"website":"http://www.laurelmountainski.com/",
+}
+{
+"name":"Liberty Mountain Resort",
+"nearestTown":"Gettysburg",
+"state":"Pennsylvania",
+"lat":39.7635,
+"long":-77.375,
+"baseElevation":570,
+"verticalFeet":620,
+"runs":22,
+"website":"http://www.libertymountainresort.com",
+}
+{
+"name":"Mount Pleasant of Edinboro",
+"nearestTown":"Edinboro",
+"state":"Pennsylvania",
+"lat":41.851111,
+"long":-80.070278,
+"baseElevation":801,
+"verticalFeet":350,
+"runs":9,
+"website":"http://www.skimountpleasant.com/",
+}
+{
+"name":"Seven Springs Mountain Resort",
+"nearestTown":"Champion",
+"state":"Pennsylvania",
+"lat":40.023056,
+"long":-79.292778,
+"baseElevation":2240,
+"verticalFeet":750,
+"runs":40,
+"website":"http://www.7springs.com/",
+}
+{
+"name":"Shawnee Mountain Ski Area",
+"nearestTown":"East Stroudsburg",
+"state":"Pennsylvania",
+"lat":41.040833,
+"long":-75.083333,
+"baseElevation":551,
+"verticalFeet":700,
+"runs":23,
+"website":"http://www.shawneemt.com",
+}
+{
+"name":"Ski Big Bear",
+"nearestTown":"Lackawaxen",
+"state":"Pennsylvania",
+"lat":41.523333,
+"long":-75.025,
+"baseElevation":null,
+"verticalFeet":650,
+"runs":18,
+"website":"http://ski-bigbear.com/",
+}
+{
+"name":"Roundtop Mountain Resort",
+"nearestTown":"Lewisberry",
+"state":"Pennsylvania",
+"lat":40.108,
+"long":-76.926,
+"baseElevation":755,
+"verticalFeet":600,
+"runs":20,
+"website":"http://www.skiroundtop.com",
+}
+{
+"name":"Montage Mountain Ski Resort",
+"nearestTown":"Scranton",
+"state":"Pennsylvania",
+"lat":41.3533,
+"long":-75.6592,
+"baseElevation":960,
+"verticalFeet":1000,
+"runs":26,
+"website":"https://www.montagemountainresorts.com/",
+}
+{
+"name":"Tussey Mountain Ski Area",
+"nearestTown":"State College",
+"state":"Pennsylvania",
+"lat":40.7682,
+"long":-77.752,
+"baseElevation":1319,
+"verticalFeet":500,
+"runs":7,
+"website":"http://www.tusseymountain.com/",
+}
+{
+"name":"Whitetail Ski Resort",
+"nearestTown":"Clear Spring",
+"state":"Pennsylvania",
+"lat":39.741667,
+"long":-77.932778,
+"baseElevation":865,
+"verticalFeet":935,
+"runs":25,
+"website":"http://www.skiwhitetail.com",
+}
+// END OF PENNSYLVANIA
+// BEGINNING OF NORTH CAROLINA
+{
+"name":"Appalachian Ski Mountain",
+"nearestTown":"Boone",
+"state":"North Carolina",
+"lat":36.174,
+"long":-81.662,
+"baseElevation":3635,
+"verticalFeet":365,
+"runs":11,
+"website":"https://www.appskimtn.com/",
+}
+{
+"name":"Cataloochee Ski Area",
+"nearestTown":"Maggie Valley",
+"state":"North Carolina",
+"lat":35.563,
+"long":-83.09,
+"baseElevation":4660,
+"verticalFeet":740,
+"runs":18,
+"website":"http://cataloochee.com/",
+}
+{
+"name":"Wolf Ridge Ski Resort",
+"nearestTown":"Mars Hill",
+"state":"North Carolina",
+"lat":35.955,
+"long":-82.509,
+"baseElevation":3900,
+"verticalFeet":700,
+"runs":23,
+"website":"http://www.skiwolfridgenc.com/",
+}
+// END OF NORTH CAROLINA
+// BEGINNING OF TENNESSEE
+{
+"name":"Ober Gatlinburg",
+"nearestTown":"Gatlinburg",
+"state":"Tennessee",
+"lat":35.703056,
+"long":-83.557778,
+"baseElevation":2700,
+"verticalFeet":600,
+"runs":10,
+"website":"https://obergatlinburg.com/",
+}
+// END OF TENNESSEE
+// BEGINNING OF VIRGINIA
+{
+"name":"Bryce Resort",
+"nearestTown":"Mount Jackson",
+"state":"Virginia",
+"lat":38.8175,
+"long":-78.765833,
+"baseElevation":1250,
+"verticalFeet":500,
+"runs":8,
+"website":"http://bryceresort.com/Home.aspx",
+}
+{
+"name":"The Omni Homestead Resort",
+"nearestTown":"Hot Springs",
+"state":"Virginia",
+"lat":37.995472,
+"long":-79.829644,
+"baseElevation":2500,
+"verticalFeet":700,
+"runs":10,
+"website":"https://www.omnihotels.com/hotels/homestead-virginia",
+}
+{
+"name":"Wintergreen Resort",
+"nearestTown":"Nellysford",
+"state":"Virginia",
+"lat":37.93,
+"long":-78.941667,
+"baseElevation":2512,
+"verticalFeet":1003,
+"runs":26,
+"website":"http://www.wintergreenresort.com/",
+}
+// END OF VIRGINIA
+// BEGINNING OF WEST VIRGINIA
+{
+"name":"Snowshoe Mountain",
+"nearestTown":"Marlinton",
+"state":"West Virginia",
+"lat":38.408889,
+"long":-79.994722,
+"baseElevation":3348,
+"verticalFeet":1500,
+"runs":60,
+"website":"https://www.snowshoemtn.com/",
+}
+{
+"name":"Winterplace Ski Resort",
+"nearestTown":"Beckley",
+"state":"West Virginia",
+"lat":37.59,
+"long":-81.115,
+"baseElevation":2997,
+"verticalFeet":603,
+"runs":28,
+"website":"https://www.winterplace.com/",
+}
+// END OF WEST VIRGINIA
+// BEGINNING OF ILLINOIS
+{
+"name":"Chestnut Mountain",
+"nearestTown":"Dubuque",
+"state":"Illinois",
+"lat":42.319049,
+"long":-90.393686,
+"baseElevation":600,
+"verticalFeet":420,
+"runs":19,
+"website":"https://www.chestnutmtn.com/",
+}
+// END OF ILLINOIS
+// BEGINNING OF INDIANA
+{
+"name":"Paoli Peaks",
+"nearestTown":"Paoli",
+"state":"Indiana",
+"lat":38.557778,
+"long":-86.510278,
+"baseElevation":900,
+"verticalFeet":300,
+"runs":17,
+"website":"https://www.paolipeaks.com/",
+}
+{
+"name":"Perfect North Slopes",
+"nearestTown":"Lawrenceburg",
+"state":"Indiana",
+"lat":39.149208,
+"long":-84.886581,
+"baseElevation":400,
+"verticalFeet":400,
+"runs":25,
+"website":"https://www.perfectnorth.com//",
+}
+// END OF INDIANA
+// BEGINNING OF MICHIGAN
+{
+"name":"Big Powderhorn Mountain",
+"nearestTown":"Bessemer",
+"state":"Michigan",
+"lat":46.504167,
+"long":-90.096111,
+"baseElevation":1240,
+"verticalFeet":400,
+"runs":33,
+"website":"http://www.bigpowderhorn.net/",
+}
+{
+"name":"Blackjack Ski Resort",
+"nearestTown":"Bessemer",
+"state":"Michigan",
+"lat":46.5021,
+"long":-90.0046,
+"baseElevation":1200,
+"verticalFeet":420,
+"runs":22,
+"website":"http://www.skiblackjack.com/",
+}
+{
+"name":"Boyne Highlands",
+"nearestTown":"Harbor Springs",
+"state":"Michigan",
+"lat":45.470833,
+"long":-84.934722,
+"baseElevation":773,
+"verticalFeet":552,
+"runs":55,
+"website":"https://www.boynehighlands.com/",
+}
+{
+"name":"Boyne Mountain Resort",
+"nearestTown":"Boyne City",
+"state":"Michigan",
+"lat":45.163889,
+"long":-84.932778,
+"baseElevation":620,
+"verticalFeet":500,
+"runs":60,
+"website":"https://www.boynemountain.com/",
+}
+{
+"name":"Caberfae Peaks Ski & Golf Resort",
+"nearestTown":"Cadillac",
+"state":"Michigan",
+"lat":44.249722,
+"long":-85.725,
+"baseElevation":1060,
+"verticalFeet":485,
+"runs":34,
+"website":"http://caberfaepeaks.com",
+}
+{
+"name":"Crystal Mountain (Michigan)",
+"nearestTown":"Thompsonville",
+"state":"Michigan",
+"lat":44.52,
+"long":-85.992222,
+"baseElevation":757,
+"verticalFeet":375,
+"runs":58,
+"website":"http://www.crystalmountain.com/",
+}
+{
+"name":"Indianhead Mountain",
+"nearestTown":"Wakefield",
+"state":"Michigan",
+"lat":46.5,
+"long":-89.970833,
+"baseElevation":1240,
+"verticalFeet":520,
+"runs":28,
+"website":"http://www.bigsnow.com/",
+}
+{
+"name":"Marquette Mountain",
+"nearestTown":"Marquette",
+"state":"Michigan",
+"lat":46.508,
+"long":-87.42,
+"baseElevation":800,
+"verticalFeet":457,
+"runs":25,
+"website":"http://www.marquettemountain.com/",
+}
+{
+"name":"Mount Bohemia",
+"nearestTown":"Grant Township",
+"state":"Michigan",
+"lat":47.391667,
+"long":-88.013611,
+"baseElevation":null,
+"verticalFeet":900,
+"runs":95,
+"website":"http://www.mtbohemia.com/",
+}
+{
+"name":"Mount Brighton",
+"nearestTown":"Brighton",
+"state":"Michigan",
+"lat":42.538056,
+"long":-83.806944,
+"baseElevation":1100,
+"verticalFeet":230,
+"runs":25,
+"website":"https://www.mtbrighton.com/",
+}
+{
+"name":"Nub's Nob",
+"nearestTown":"Harbor Springs",
+"state":"Michigan",
+"lat":45.468333,
+"long":-84.903611,
+"baseElevation":911,
+"verticalFeet":427,
+"runs":53,
+"website":"http://nubsnob.com",
+}
+// END OF MICHIGAN
+// BEGINNING OF MINNESOTA
+{
+"name":"",
+"nearestTown":"",
+"state":"",
+"lat":,
+"long":,
+"baseElevation":,
+"verticalFeet":,
+"runs":,
+"website":"",
+}
+{
+"name":"",
+"nearestTown":"",
+"state":"",
+"lat":,
+"long":,
+"baseElevation":,
+"verticalFeet":,
+"runs":,
+"website":"",
+}
+{
+"name":"",
+"nearestTown":"",
+"state":"",
+"lat":,
+"long":,
+"baseElevation":,
+"verticalFeet":,
+"runs":,
+"website":"",
+}
+{
 "name":"",
 "nearestTown":"",
 "state":"",
