@@ -1,5 +1,6 @@
 var map;
 var userLocation = {"lat":45.084722,"lng":-69.905556};
+var radius;
 
 function myMap() {
   var mapProp= {
@@ -45,13 +46,15 @@ function newLocation(newLat,newLng)
 }
 
 
+
 $(document).ready(function(){
+  var radiusBox = document.getElementById("radius");
+  radius = radiusBox.options[radiusBox.selectedIndex].value;
 
   $("#share-location").click(function(event) {
     event.preventDefault();
 
     geoFindMe();
-
   });
   $("#change-location").click(function(event) {
     event.preventDefault();
