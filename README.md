@@ -8,7 +8,7 @@
 This website allows users to locate the closest ski resort.
 
 ## SetUp/Installation
-* _Clone repository from GitHub.
+* _Clone repository from GitHub._
 * _Click to open HTML file on browser_
 
 ## Technology Used
