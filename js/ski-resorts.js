@@ -1,5 +1,4 @@
-
-  [{
+var skiData= [{
   "name":"Baker Mountain",
   "nearestTown":"Waterville",
   "state":"Maine",
@@ -1626,4 +1625,5 @@
   "verticalFeet":190,
   "runs":23,
   "website":"https://www.wilmotmountain.com/",
-  }]
+  }
+];
