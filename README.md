@@ -1,4 +1,4 @@
-# Ski Resort Finer
+# Ski Resort Finder
 
 #### _Ski Resort Finder, 04/09/2018_
 
