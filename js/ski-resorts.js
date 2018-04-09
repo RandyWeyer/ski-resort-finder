@@ -1,4 +1,4 @@
-var skiData= [{
+var skiData = [{
   "name":"Baker Mountain",
   "nearestTown":"Waterville",
   "state":"Maine",
@@ -51,7 +51,7 @@ var skiData= [{
   "baseElevation":235,
   "verticalFeet":845,
   "runs":17,
-  "website":"http://www.camdensnowbowl.com/",
+  "website":"http://www.camdensnowbowl.com/"
   },
   {
   "name":"Eaton Mountain",
@@ -106,7 +106,7 @@ var skiData= [{
   "baseElevation":2120,
   "verticalFeet":2000,
   "runs":66,
-  "website":"http://www.majellagroup.com/saddlebackmaine/",
+  "website":"http://www.majellagroup.com/saddlebackmaine/"
   },
   {
   "name":"Shawnee Peak Ski Area",
@@ -173,7 +173,7 @@ var skiData= [{
   "baseElevation":1025,
   "verticalFeet":465,
   "runs":23,
-  "website":"https://skiblandford.com/",
+  "website":"https://skiblandford.com/"
   },
   {
   "name":"Blue Hills Ski Area",
@@ -195,7 +195,7 @@ var skiData= [{
   "baseElevation":825,
   "verticalFeet":939,
   "runs":22,
-  "website":"http://skibutternut.com/",
+  "website":"http://skibutternut.com/"
   },
   {
   "name":"Jiminy Peak",
@@ -206,7 +206,7 @@ var skiData= [{
   "baseElevation":1245,
   "verticalFeet":1150,
   "runs":45,
-  "website":"http://www.jiminypeak.com/",
+  "website":"http://www.jiminypeak.com/"
   },
   {
   "name":"Nashoba Valley Ski Area",
@@ -217,7 +217,7 @@ var skiData= [{
   "baseElevation":194,
   "verticalFeet":240,
   "runs":17,
-  "website":"https://www.skinashoba.com/",
+  "website":"https://www.skinashoba.com/"
   },
   {
   "name":"Ski Bradford",
@@ -228,7 +228,7 @@ var skiData= [{
   "baseElevation":49,
   "verticalFeet":213,
   "runs":23,
-  "website":"http://skibradford.com/",
+  "website":"http://skibradford.com/"
   },
   {
   "name":"Ski Ward",
@@ -239,7 +239,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":220,
   "runs":9,
-  "website":"https://www.skiward.com/",
+  "website":"https://www.skiward.com/"
   },
   {
   "name":"Wachusett Mountain",
@@ -262,7 +262,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":120,
   "runs":9,
-  "website":"http://www.arrowheadnh.com/",
+  "website":"http://www.arrowheadnh.com/"
   },
   {
   "name":"Attitash Mountain Resort",
@@ -284,7 +284,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":1100,
   "runs":40,
-  "website":"https://www.blackmt.com/",
+  "website":"https://www.blackmt.com/"
   },
   {
   "name":"Bretton Woods Mountain Resort",
@@ -295,7 +295,7 @@ var skiData= [{
   "baseElevation":1600,
   "verticalFeet":1500,
   "runs":102,
-  "website":"http://brettonwoods.com/",
+  "website":"http://brettonwoods.com/"
   },
   {
   "name":"Cannon Mountain Ski Area",
@@ -317,7 +317,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":1200,
   "runs":54,
-  "website":"http://www.cranmore.com/",
+  "website":"http://www.cranmore.com/"
   },
   {
   "name":"Crotched Mountain",
@@ -339,7 +339,7 @@ var skiData= [{
   "baseElevation":975,
   "verticalFeet":968,
   "runs":30,
-  "website":"http://skiway.dartmouth.edu/",
+  "website":"http://skiway.dartmouth.edu/"
   },
   {
   "name":"Granite Gorge Ski Area",
@@ -350,7 +350,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":390,
   "runs":19,
-  "website":"http://www.granitegorge.com/",
+  "website":"http://www.granitegorge.com/"
   },
   {
   "name":"Gunstock Mountain Resort",
@@ -361,7 +361,7 @@ var skiData= [{
   "baseElevation":867,
   "verticalFeet":1400,
   "runs":55,
-  "website":"https://www.gunstock.com/",
+  "website":"https://www.gunstock.com/"
   },
   {
   "name":"King Pine",
@@ -372,7 +372,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":350,
   "runs":17,
-  "website":"https://www.kingpine.com/",
+  "website":"https://www.kingpine.com/"
   },
   {
   "name":"Loon Mountain",
@@ -383,7 +383,7 @@ var skiData= [{
   "baseElevation":950,
   "verticalFeet":2100,
   "runs":61,
-  "website":"http://www.loonmtn.com/",
+  "website":"http://www.loonmtn.com/"
   },
   {
   "name":"McIntyre Ski Area",
@@ -394,7 +394,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":180,
   "runs":9,
-  "website":"http://www.mcintyreskiarea.com/",
+  "website":"http://www.mcintyreskiarea.com/"
   },
   {
   "name":"Mount Sunapee Resort",
@@ -405,7 +405,7 @@ var skiData= [{
   "baseElevation":1230,
   "verticalFeet":1513,
   "runs":66,
-  "website":"http://www.mountsunapee.com/",
+  "website":"http://www.mountsunapee.com/"
   },
   {
   "name":"Pats Peak",
@@ -416,7 +416,7 @@ var skiData= [{
   "baseElevation":690,
   "verticalFeet":770,
   "runs":28,
-  "website":"https://www.patspeak.com/",
+  "website":"https://www.patspeak.com/"
   },
   {
   "name":"Ragged Mountain Resort",
@@ -427,7 +427,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":1250,
   "runs":57,
-  "website":"http://www.raggedmountainresort.com/",
+  "website":"http://www.raggedmountainresort.com/"
   },
   {
   "name":"Tenney Mountain Ski Resort",
@@ -438,7 +438,7 @@ var skiData= [{
   "baseElevation":749,
   "verticalFeet":1400,
   "runs":45,
-  "website":"https://www.skitenney.com/",
+  "website":"https://www.skitenney.com/"
   },
   {
   "name":"The Balsams Grand Resort Hotel",
@@ -449,7 +449,7 @@ var skiData= [{
   "baseElevation":2200,
   "verticalFeet":null,
   "runs":16,
-  "website":"https://thebalsamsresort.com/",
+  "website":"https://thebalsamsresort.com/"
   },
   {
   "name":"Waterville Valley Resort",
@@ -460,7 +460,7 @@ var skiData= [{
   "baseElevation":1820,
   "verticalFeet":2020,
   "runs":50,
-  "website":"http://www.waterville.com/",
+  "website":"http://www.waterville.com/"
   },
   {
   "name":"Whaleback",
@@ -471,7 +471,7 @@ var skiData= [{
   "baseElevation":1100,
   "verticalFeet":700,
   "runs":30,
-  "website":"https://www.whaleback.com/",
+  "website":"https://www.whaleback.com/"
   },
   {
   "name":"Wildcat Mountain Ski Area",
@@ -482,7 +482,7 @@ var skiData= [{
   "baseElevation":1950,
   "verticalFeet":2112,
   "runs":49,
-  "website":"https://www.skiwildcat.com/",
+  "website":"https://www.skiwildcat.com/"
   },
 
   {
@@ -494,7 +494,7 @@ var skiData= [{
   "baseElevation":70,
   "verticalFeet":240,
   "runs":14,
-  "website":"http://www.yawgoo.com/",
+  "website":"http://www.yawgoo.com/"
   },
 
   {
@@ -517,7 +517,7 @@ var skiData= [{
   "baseElevation":1446,
   "verticalFeet":1625,
   "runs":71,
-  "website":"http://www.boltonvalley.com/",
+  "website":"http://www.boltonvalley.com/"
   },
   {
   "name":"Bromley Mountain",
@@ -528,7 +528,7 @@ var skiData= [{
   "baseElevation":1956,
   "verticalFeet":1334,
   "runs":47,
-  "website":"https://www.bromley.com/",
+  "website":"https://www.bromley.com/"
   },
   {
   "name":"Burke Mountain",
@@ -539,7 +539,7 @@ var skiData= [{
   "baseElevation":1256,
   "verticalFeet":2011,
   "runs":55,
-  "website":"http://skiburke.com/",
+  "website":"http://skiburke.com/"
   },
   {
   "name":"Jay Peak Resort",
@@ -550,7 +550,7 @@ var skiData= [{
   "baseElevation":1843,
   "verticalFeet":2153,
   "runs":76,
-  "website":"https://jaypeakresort.com/",
+  "website":"https://jaypeakresort.com/"
   },
   {
   "name":"Killington Ski Resort",
@@ -572,7 +572,7 @@ var skiData= [{
   "baseElevation":1600,
   "verticalFeet":2000,
   "runs":45,
-  "website":"https://www.madriverglen.com/",
+  "website":"https://www.madriverglen.com/"
   },
   {
   "name":"Magic Mountain Ski Area",
@@ -583,7 +583,7 @@ var skiData= [{
   "baseElevation":1350,
   "verticalFeet":1500,
   "runs":50,
-  "website":"https://www.magicmtn.com/",
+  "website":"https://www.magicmtn.com/"
   },
   {
   "name":"Middlebury College Snow Bowl",
@@ -594,7 +594,7 @@ var skiData= [{
   "baseElevation":2720,
   "verticalFeet":1000,
   "runs":17,
-  "website":"http://www.middleburysnowbowl.com/",
+  "website":"http://www.middleburysnowbowl.com/"
   },
   {
   "name":"Mount Snow",
@@ -605,7 +605,7 @@ var skiData= [{
   "baseElevation":1900,
   "verticalFeet":1500,
   "runs":87,
-  "website":"https://www.mountsnow.com/",
+  "website":"https://www.mountsnow.com/"
   },
   {
   "name":"Okemo Mountain",
@@ -616,7 +616,7 @@ var skiData= [{
   "baseElevation":1134,
   "verticalFeet":2200,
   "runs":121,
-  "website":"https://www.okemo.com/",
+  "website":"https://www.okemo.com/"
   },
   {
   "name":"Pico Mountain",
@@ -638,7 +638,7 @@ var skiData= [{
   "baseElevation":314,
   "verticalFeet":796,
   "runs":78,
-  "website":"http://www.smuggs.com/",
+  "website":"http://www.smuggs.com/"
   },
   {
   "name":"Stowe Mountain Resort",
@@ -649,7 +649,7 @@ var skiData= [{
   "baseElevation":1559,
   "verticalFeet":2360,
   "runs":116,
-  "website":"https://www.stowe.com/",
+  "website":"https://www.stowe.com/"
   },
   {
   "name":"Stratton Mountain Resort",
@@ -660,7 +660,7 @@ var skiData= [{
   "baseElevation":1872,
   "verticalFeet":2003,
   "runs":97,
-  "website":"https://www.stratton.com/",
+  "website":"https://www.stratton.com/"
   },
   {
   "name":"Sugarbush Resort",
@@ -671,7 +671,7 @@ var skiData= [{
   "baseElevation":1483,
   "verticalFeet":2820,
   "runs":111,
-  "website":"http://www.sugarbush.com/",
+  "website":"http://www.sugarbush.com/"
   },
   {
   "name":"Suicide Six",
@@ -694,7 +694,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":650,
   "runs":25,
-  "website":"http://www.mohawkmtn.com/",
+  "website":"http://www.mohawkmtn.com/"
   },
   {
   "name":"Mount Southington",
@@ -705,7 +705,7 @@ var skiData= [{
   "baseElevation":100,
   "verticalFeet":425,
   "runs":14,
-  "website":"http://mountsouthington.com/",
+  "website":"http://mountsouthington.com/"
   },
   {
   "name":"Powder Ridge Ski Area",
@@ -716,7 +716,7 @@ var skiData= [{
   "baseElevation":383,
   "verticalFeet":550,
   "runs":19,
-  "website":"https://powderridgepark.com/",
+  "website":"https://powderridgepark.com/"
   },
   {
   "name":"Ski Sundown",
@@ -727,7 +727,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":625,
   "runs":16,
-  "website":"http://www.skisundown.com/",
+  "website":"http://www.skisundown.com/"
   },
 
   {
@@ -739,7 +739,7 @@ var skiData= [{
   "baseElevation":2415,
   "verticalFeet":700,
   "runs":34,
-  "website":"http://www.wispresort.com/",
+  "website":"http://www.wispresort.com/"
   },
 
   {
@@ -751,7 +751,7 @@ var skiData= [{
   "baseElevation":137,
   "verticalFeet":317,
   "runs":46,
-  "website":"https://www.mountaincreek.com/",
+  "website":"https://www.mountaincreek.com/"
   },
 
   {
@@ -763,7 +763,7 @@ var skiData= [{
   "baseElevation":2024,
   "verticalFeet":1404,
   "runs":52,
-  "website":"http://www.belleayre.com/",
+  "website":"http://www.belleayre.com/"
   },
   {
   "name":"Bristol Mountain Ski Resort",
@@ -774,7 +774,7 @@ var skiData= [{
   "baseElevation":1000,
   "verticalFeet":1150,
   "runs":35,
-  "website":"http://www.bristolmountain.com/",
+  "website":"http://www.bristolmountain.com/"
   },
   {
   "name":"Catamount Ski Area",
@@ -785,7 +785,7 @@ var skiData= [{
   "baseElevation":1000,
   "verticalFeet":1000,
   "runs":36,
-  "website":"http://www.catamountski.com/",
+  "website":"http://www.catamountski.com/"
   },
   {
   "name":"Gore Mountain",
@@ -796,7 +796,7 @@ var skiData= [{
   "baseElevation":998,
   "verticalFeet":2537,
   "runs":109,
-  "website":"http://www.goremountain.com/",
+  "website":"http://www.goremountain.com/"
   },
   {
   "name":"Greek Peak Mountain Resort",
@@ -807,7 +807,7 @@ var skiData= [{
   "baseElevation":1148,
   "verticalFeet":952,
   "runs":55,
-  "website":"http://greekpeak.net/",
+  "website":"http://greekpeak.net/"
   },
   {
   "name":"Holiday Valley",
@@ -818,7 +818,7 @@ var skiData= [{
   "baseElevation":1500,
   "verticalFeet":750,
   "runs":58,
-  "website":"https://www.holidayvalley.com/",
+  "website":"https://www.holidayvalley.com/"
   },
   {
   "name":"Hunter Mountain",
@@ -829,7 +829,7 @@ var skiData= [{
   "baseElevation":1600,
   "verticalFeet":1600,
   "runs":58,
-  "website":"https://www.huntermtn.com/",
+  "website":"https://www.huntermtn.com/"
   },
   {
   "name":"McCauley Mountain",
@@ -851,7 +851,7 @@ var skiData= [{
   "baseElevation":1400,
   "verticalFeet":400,
   "runs":27,
-  "website":"https://www.pknpk.com/",
+  "website":"https://www.pknpk.com/"
   },
   {
   "name":"Plattekill Mountain",
@@ -862,7 +862,7 @@ var skiData= [{
   "baseElevation":2400,
   "verticalFeet":1100,
   "runs":38,
-  "website":"http://plattekill.com/",
+  "website":"http://plattekill.com/"
   },
   {
   "name":"Thunder Ridge Ski Area",
@@ -873,7 +873,7 @@ var skiData= [{
   "baseElevation":670,
   "verticalFeet":600,
   "runs":21,
-  "website":"http://www.thunderridgeski.com/",
+  "website":"http://www.thunderridgeski.com/"
   },
   {
   "name":"Titus Mountain",
@@ -884,7 +884,7 @@ var skiData= [{
   "baseElevation":825,
   "verticalFeet":1200,
   "runs":50,
-  "website":"https://www.titusmountain.com/",
+  "website":"https://www.titusmountain.com/"
   },
   {
   "name":"West Mountain",
@@ -895,7 +895,7 @@ var skiData= [{
   "baseElevation":460,
   "verticalFeet":1010,
   "runs":25,
-  "website":"https://www.westmtn.net/",
+  "website":"https://www.westmtn.net/"
   },
   {
   "name":"Whiteface Mountain",
@@ -906,7 +906,7 @@ var skiData= [{
   "baseElevation":1220,
   "verticalFeet":3430,
   "runs":87,
-  "website":"http://www.whiteface.com/",
+  "website":"http://www.whiteface.com/"
   },
   {
   "name":"Windham Mountain",
@@ -917,7 +917,7 @@ var skiData= [{
   "baseElevation":1500,
   "verticalFeet":1600,
   "runs":54,
-  "website":"http://www.windhammountain.com/",
+  "website":"http://www.windhammountain.com/"
   },
 
   {
@@ -929,7 +929,7 @@ var skiData= [{
   "baseElevation":590,
   "verticalFeet":510,
   "runs":21,
-  "website":"https://www.bcmountainresort.com/",
+  "website":"https://www.bcmountainresort.com/"
   },
   {
   "name":"Blue Mountain Ski Area",
@@ -940,7 +940,7 @@ var skiData= [{
   "baseElevation":458,
   "verticalFeet":1082,
   "runs":39,
-  "website":"https://www.skibluemt.com/",
+  "website":"https://www.skibluemt.com/"
   },
   {
   "name":"Camelback Mountain Resort",
@@ -962,7 +962,7 @@ var skiData= [{
   "baseElevation":1742,
   "verticalFeet":925,
   "runs":27,
-  "website":"https://www.elkskier.com/",
+  "website":"https://www.elkskier.com/"
   },
   {
   "name":"Hidden Valley Resort",
@@ -973,7 +973,7 @@ var skiData= [{
   "baseElevation":2405,
   "verticalFeet":470,
   "runs":26,
-  "website":"http://www.hiddenvalleyresort.com/",
+  "website":"http://www.hiddenvalleyresort.com/"
   },
   {
   "name":"Laurel Mountain Ski Resort",
@@ -984,7 +984,7 @@ var skiData= [{
   "baseElevation":2000,
   "verticalFeet":800,
   "runs":20,
-  "website":"http://www.laurelmountainski.com/",
+  "website":"http://www.laurelmountainski.com/"
   },
   {
   "name":"Liberty Mountain Resort",
@@ -1006,7 +1006,7 @@ var skiData= [{
   "baseElevation":801,
   "verticalFeet":350,
   "runs":9,
-  "website":"http://www.skimountpleasant.com/",
+  "website":"http://www.skimountpleasant.com/"
   },
   {
   "name":"Seven Springs Mountain Resort",
@@ -1017,7 +1017,7 @@ var skiData= [{
   "baseElevation":2240,
   "verticalFeet":750,
   "runs":40,
-  "website":"http://www.7springs.com/",
+  "website":"http://www.7springs.com/"
   },
   {
   "name":"Shawnee Mountain Ski Area",
@@ -1039,7 +1039,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":650,
   "runs":18,
-  "website":"http://ski-bigbear.com/",
+  "website":"http://ski-bigbear.com/"
   },
   {
   "name":"Roundtop Mountain Resort",
@@ -1061,7 +1061,7 @@ var skiData= [{
   "baseElevation":960,
   "verticalFeet":1000,
   "runs":26,
-  "website":"https://www.montagemountainresorts.com/",
+  "website":"https://www.montagemountainresorts.com/"
   },
   {
   "name":"Tussey Mountain Ski Area",
@@ -1072,7 +1072,7 @@ var skiData= [{
   "baseElevation":1319,
   "verticalFeet":500,
   "runs":7,
-  "website":"http://www.tusseymountain.com/",
+  "website":"http://www.tusseymountain.com/"
   },
   {
   "name":"Whitetail Ski Resort",
@@ -1095,7 +1095,7 @@ var skiData= [{
   "baseElevation":3635,
   "verticalFeet":365,
   "runs":11,
-  "website":"https://www.appskimtn.com/",
+  "website":"https://www.appskimtn.com/"
   },
   {
   "name":"Cataloochee Ski Area",
@@ -1106,7 +1106,7 @@ var skiData= [{
   "baseElevation":4660,
   "verticalFeet":740,
   "runs":18,
-  "website":"http://cataloochee.com/",
+  "website":"http://cataloochee.com/"
   },
   {
   "name":"Wolf Ridge Ski Resort",
@@ -1117,7 +1117,7 @@ var skiData= [{
   "baseElevation":3900,
   "verticalFeet":700,
   "runs":23,
-  "website":"http://www.skiwolfridgenc.com/",
+  "website":"http://www.skiwolfridgenc.com/"
   },
 
   {
@@ -1129,7 +1129,7 @@ var skiData= [{
   "baseElevation":2700,
   "verticalFeet":600,
   "runs":10,
-  "website":"https://obergatlinburg.com/",
+  "website":"https://obergatlinburg.com/"
   },
 
   {
@@ -1163,7 +1163,7 @@ var skiData= [{
   "baseElevation":2512,
   "verticalFeet":1003,
   "runs":26,
-  "website":"http://www.wintergreenresort.com/",
+  "website":"http://www.wintergreenresort.com/"
   },
 
   {
@@ -1175,7 +1175,7 @@ var skiData= [{
   "baseElevation":3348,
   "verticalFeet":1500,
   "runs":60,
-  "website":"https://www.snowshoemtn.com/",
+  "website":"https://www.snowshoemtn.com/"
   },
   {
   "name":"Winterplace Ski Resort",
@@ -1186,7 +1186,7 @@ var skiData= [{
   "baseElevation":2997,
   "verticalFeet":603,
   "runs":28,
-  "website":"https://www.winterplace.com/",
+  "website":"https://www.winterplace.com/"
   },
 
   {
@@ -1198,7 +1198,7 @@ var skiData= [{
   "baseElevation":600,
   "verticalFeet":420,
   "runs":19,
-  "website":"https://www.chestnutmtn.com/",
+  "website":"https://www.chestnutmtn.com/"
   },
 
   {
@@ -1210,7 +1210,7 @@ var skiData= [{
   "baseElevation":900,
   "verticalFeet":300,
   "runs":17,
-  "website":"https://www.paolipeaks.com/",
+  "website":"https://www.paolipeaks.com/"
   },
   {
   "name":"Perfect North Slopes",
@@ -1221,7 +1221,7 @@ var skiData= [{
   "baseElevation":400,
   "verticalFeet":400,
   "runs":25,
-  "website":"https://www.perfectnorth.com//",
+  "website":"https://www.perfectnorth.com//"
   },
 
   {
@@ -1233,7 +1233,7 @@ var skiData= [{
   "baseElevation":1240,
   "verticalFeet":400,
   "runs":33,
-  "website":"http://www.bigpowderhorn.net/",
+  "website":"http://www.bigpowderhorn.net/"
   },
   {
   "name":"Blackjack Ski Resort",
@@ -1244,7 +1244,7 @@ var skiData= [{
   "baseElevation":1200,
   "verticalFeet":420,
   "runs":22,
-  "website":"http://www.skiblackjack.com/",
+  "website":"http://www.skiblackjack.com/"
   },
   {
   "name":"Boyne Highlands",
@@ -1255,7 +1255,7 @@ var skiData= [{
   "baseElevation":773,
   "verticalFeet":552,
   "runs":55,
-  "website":"https://www.boynehighlands.com/",
+  "website":"https://www.boynehighlands.com/"
   },
   {
   "name":"Boyne Mountain Resort",
@@ -1266,7 +1266,7 @@ var skiData= [{
   "baseElevation":620,
   "verticalFeet":500,
   "runs":60,
-  "website":"https://www.boynemountain.com/",
+  "website":"https://www.boynemountain.com/"
   },
   {
   "name":"Caberfae Peaks Ski & Golf Resort",
@@ -1288,7 +1288,7 @@ var skiData= [{
   "baseElevation":757,
   "verticalFeet":375,
   "runs":58,
-  "website":"http://www.crystalmountain.com/",
+  "website":"http://www.crystalmountain.com/"
   },
   {
   "name":"Indianhead Mountain",
@@ -1299,7 +1299,7 @@ var skiData= [{
   "baseElevation":1240,
   "verticalFeet":520,
   "runs":28,
-  "website":"http://www.bigsnow.com/",
+  "website":"http://www.bigsnow.com/"
   },
   {
   "name":"Marquette Mountain",
@@ -1310,7 +1310,7 @@ var skiData= [{
   "baseElevation":800,
   "verticalFeet":457,
   "runs":25,
-  "website":"http://www.marquettemountain.com/",
+  "website":"http://www.marquettemountain.com/"
   },
   {
   "name":"Mount Bohemia",
@@ -1321,7 +1321,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":900,
   "runs":95,
-  "website":"http://www.mtbohemia.com/",
+  "website":"http://www.mtbohemia.com/"
   },
   {
   "name":"Mount Brighton",
@@ -1332,7 +1332,7 @@ var skiData= [{
   "baseElevation":1100,
   "verticalFeet":230,
   "runs":25,
-  "website":"https://www.mtbrighton.com/",
+  "website":"https://www.mtbrighton.com/"
   },
   {
   "name":"Nub's Nob",
@@ -1355,7 +1355,7 @@ var skiData= [{
   "baseElevation":350,
   "verticalFeet":350,
   "runs":50,
-  "website":"https://www.aftonalps.com/",
+  "website":"https://www.aftonalps.com/"
   },
   {
   "name":"Buck Hill",
@@ -1366,7 +1366,7 @@ var skiData= [{
   "baseElevation":949,
   "verticalFeet":262,
   "runs":16,
-  "website":"http://www.buckhill.com/",
+  "website":"http://www.buckhill.com/"
   },
   {
   "name":"Lutsen Mountains",
@@ -1377,7 +1377,7 @@ var skiData= [{
   "baseElevation":863,
   "verticalFeet":825,
   "runs":95,
-  "website":"https://www.lutsen.com/winter/",
+  "website":"https://www.lutsen.com/winter/"
   },
   {
   "name":"Mount Kato",
@@ -1388,7 +1388,7 @@ var skiData= [{
   "baseElevation":600,
   "verticalFeet":240,
   "runs":19,
-  "website":"https://www.mountkato.com/",
+  "website":"https://www.mountkato.com/"
   },
   {
   "name":"Spirit Mountain",
@@ -1399,7 +1399,7 @@ var skiData= [{
   "baseElevation":620,
   "verticalFeet":678,
   "runs":22,
-  "website":"https://www.spiritmt.com/",
+  "website":"https://www.spiritmt.com/"
   },
   {
   "name":"Welch Village",
@@ -1410,7 +1410,7 @@ var skiData= [{
   "baseElevation":700,
   "verticalFeet":360,
   "runs":60,
-  "website":"http://www.welchvillage.com/",
+  "website":"http://www.welchvillage.com/"
   },
   {
   "name":"Wild Mountain",
@@ -1421,7 +1421,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":300,
   "runs":26,
-  "website":"https://www.wildmountain.com/",
+  "website":"https://www.wildmountain.com/"
   },
 
   {
@@ -1433,7 +1433,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":312,
   "runs":8,
-  "website":"https://www.hiddenvalleyski.com/",
+  "website":"https://www.hiddenvalleyski.com/"
   },
   {
   "name":"Snow Creek",
@@ -1444,7 +1444,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":299,
   "runs":11,
-  "website":"https://www.skisnowcreek.com/",
+  "website":"https://www.skisnowcreek.com/"
   },
 
   {
@@ -1456,7 +1456,7 @@ var skiData= [{
   "baseElevation":2270,
   "verticalFeet":180,
   "runs":9,
-  "website":"http://skibwp.com/",
+  "website":"http://skibwp.com/"
   },
   {
   "name":"Frost Fire Ski and Snow Board Area",
@@ -1478,7 +1478,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":425,
   "runs":21,
-  "website":"https://www.huffhills.com/",
+  "website":"https://www.huffhills.com/"
   },
 
   {
@@ -1490,7 +1490,7 @@ var skiData= [{
   "baseElevation":1260,
   "verticalFeet":230,
   "runs":11,
-  "website":"https://www.alpinevalleyohio.com/",
+  "website":"https://www.alpinevalleyohio.com/"
   },
   {
   "name":"Boston Mills/Brandywine Ski Resort",
@@ -1501,7 +1501,7 @@ var skiData= [{
   "baseElevation":null,
   "verticalFeet":240,
   "runs":18,
-  "website":"https://www.bmbw.com/",
+  "website":"https://www.bmbw.com/"
   },
   {
   "name":"Mad River Mountain",
@@ -1512,7 +1512,7 @@ var skiData= [{
   "baseElevation":1160,
   "verticalFeet":300,
   "runs":23,
-  "website":"https://www.skimadriver.com/",
+  "website":"https://www.skimadriver.com/"
   },
 
   {
@@ -1524,7 +1524,7 @@ var skiData= [{
   "baseElevation":1352,
   "verticalFeet":178,
   "runs":12,
-  "website":"https://greatbearpark.com/",
+  "website":"https://greatbearpark.com/"
   },
   {
   "name":"Terry Peak",
@@ -1535,7 +1535,7 @@ var skiData= [{
   "baseElevation":6011,
   "verticalFeet":1053,
   "runs":30,
-  "website":"http://www.terrypeak.com/",
+  "website":"http://www.terrypeak.com/"
   },
 
   {
@@ -1547,7 +1547,7 @@ var skiData= [{
   "baseElevation":820,
   "verticalFeet":220,
   "runs":20,
-  "website":"http://www.alpinevalleyresort.com/",
+  "website":"http://www.alpinevalleyresort.com/"
   },
   {
   "name":"Cascade Mountain",
@@ -1558,7 +1558,7 @@ var skiData= [{
   "baseElevation":820,
   "verticalFeet":450,
   "runs":44,
-  "website":"http://www.cascademountain.com/",
+  "website":"http://www.cascademountain.com/"
   },
   {
   "name":"Devil's Head Resort",
@@ -1569,7 +1569,7 @@ var skiData= [{
   "baseElevation":930,
   "verticalFeet":490,
   "runs":28,
-  "website":"https://www.devilsheadresort.com/",
+  "website":"https://www.devilsheadresort.com/"
   },
   {
   "name":"Granite Peak Ski Area",
@@ -1613,7 +1613,7 @@ var skiData= [{
   "baseElevation":870,
   "verticalFeet":260,
   "runs":16,
-  "website":"http://www.tyrolbasin.com/",
+  "website":"http://www.tyrolbasin.com/"
   },
   {
   "name":"Wilmot Mountain",
@@ -1624,6 +1624,6 @@ var skiData= [{
   "baseElevation":770,
   "verticalFeet":190,
   "runs":23,
-  "website":"https://www.wilmotmountain.com/",
+  "website":"https://www.wilmotmountain.com/"
   }
 ];

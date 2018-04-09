@@ -3,25 +3,23 @@
 
 $(document).ready(function() {
 
+  var skiTable = $('#resort-specs').DataTable({
 
 
-  for(var i = 0; i < Object.keys(skiData).length; i ++){
-    console.log(skiData[i].name);
-    if(skiData[i].name == "Welch Village"){
-      console.log("true i=" + i);
-      count = i;
-      break;
-    }
-  }
+  });
 
-  // var skiTable = $('#resort-specs').DataTable({
-  //
-  // });
-  // $.getJSON("/ski-resort-finder/js/ski-resorts.json", function(data) {
-  //   $.each(data, function(index, value) {
-  //     console.log(value);
-  //   });
-  // });
+
+  // var lengthOfSki = Object.keys(skiData).length
+  // for(var i = 0; i < lengthOfSki; i ++){
+    skiData.forEach(function(instance) {
+      $("#result").append(
+      "<tr><td>" + instance.name + "</td><td>" + instance.nearestTown + "</td><td>" + instance.state + "</td><td>" + instance.baseElevation + "</td><td>" + instance.verticalFeet + "</td><td>" + instance.runs + "</td><td>" + instance.website + "</td></tr>")
+    });
+
+
+
+ console.log(skiData)
+
 
 
 
