@@ -11,6 +11,7 @@ function myMap() {
   var marker = new google.maps.Marker({
     position: userLocation,
     map: map,
+    draggable:true,
     title: "Your Location"
   });
 }
