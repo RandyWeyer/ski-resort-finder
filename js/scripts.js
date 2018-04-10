@@ -6,6 +6,7 @@ function myMap() {
   var mapProp= {
     center:new google.maps.LatLng(userLocation.lat,userLocation.lng),
     zoom:5,
+    gestureHandling: 'greedy'
 
   };
 
@@ -21,20 +22,29 @@ function myMap() {
   google.maps.event.addListener(marker,'dragend',function(){
     console.log(marker.getPosition().lat());
     console.log(marker.getPosition().lng());
+
   });
 
-  map.addListener('bounds_changed', function() {
-    // 3 seconds after the center of the map has changed, pan back to the
-    // marker.
-    window.setTimeout(function() {
-      map.panTo(marker.getPosition());
-    }, 3000);
-  });
+  google.maps.event.addListener(map, 'dblclick', function(e) {
+        var positionDoubleclick = e.latLng;
+        marker.setPosition(positionDoubleclick);
+        console.log(marker.getPosition().lat());
+        console.log(marker.getPosition().lng());
 
-  marker.addListener('click', function() {
-    map.setZoom(8);
-    map.setCenter(marker.getPosition());
-  });
+        // event.stopPropagation(); - the map will not zoom in
+      });
+
+  // map.addListener('center_changed', function() {
+  //   // 3 seconds after the center of the map has changed, pan back to the marker.
+  //   window.setTimeout(function() {
+  //     map.panTo(marker.getPosition());
+  //   }, 08000);
+  // });
+  //
+  // marker.addListener('click', function() {
+  //   map.setZoom(10);
+  //   map.setCenter(marker.getPosition());
+  // });
 }
 
 function geoFindMe() {
