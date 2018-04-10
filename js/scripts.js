@@ -99,7 +99,7 @@ function buildDataTable() {
   skiData.forEach(function(instance) {
     if((distance((instance.lat*1),(instance.long*1),(userLocation.lat),(userLocation.lng),"miles"))<radius) {
       $("#result").append(
-      "<tr><td>" + instance.name + "</td><td>" + instance.nearestTown + "</td><td>" + instance.state + "</td><td>" + (instance.baseElevation*1) + "</td><td>" + (instance.verticalFeet*1) + "</td><td>" + (instance.runs*1) + "</td><td><a href='" + instance.website + "'>" + instance.website + "</a></td></tr>")
+      "<tr><td>" + instance.name + "</td><td>" + instance.nearestTown + "</td><td>" + instance.state + "</td><td>" + (instance.baseElevation*1) + "</td><td>" + (instance.verticalFeet*1) + "</td><td>" + (instance.runs*1) + "</td><td><a href='https://www.google.com/maps/dir/" + userLocation.lat + "," + userLocation.lng + "/" + instance.lat + "," + instance.long + "'>Directions</a></td><td><a href='" + instance.website + "'>" + instance.website + "</a></td></tr>")
       console.log((distance((instance.lat*1),(instance.long*1),(userLocation.lat),(userLocation.lng),"miles")));
       }
     });
