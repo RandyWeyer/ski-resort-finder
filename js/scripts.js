@@ -6,6 +6,7 @@ function myMap() {
   var mapProp= {
     center:new google.maps.LatLng(userLocation.lat,userLocation.lng),
     zoom:5,
+
   };
 
   map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
@@ -22,15 +23,28 @@ function myMap() {
     console.log(marker.getPosition().lng());
   });
 
+  map.addListener('bounds_changed', function() {
+    // 3 seconds after the center of the map has changed, pan back to the
+    // marker.
+    window.setTimeout(function() {
+      map.panTo(marker.getPosition());
+    }, 3000);
+  });
+
+  marker.addListener('click', function() {
+    map.setZoom(8);
+    map.setCenter(marker.getPosition());
+  });
 }
 
 function geoFindMe() {
   var output = document.getElementById("output");
+    if (!navigator.geolocation){
+      output.innerHTML = "<p>Geolocation is not supported by your browser</p>";
+      return;
+    }
 
-  if (!navigator.geolocation){
-    output.innerHTML = "<p>Geolocation is not supported by your browser</p>";
-    return;
-  }
+
 
   function success(position) {
     userLocation.lat = position.coords.latitude;
@@ -44,14 +58,11 @@ function geoFindMe() {
   function error() {
     output.innerHTML = "Unable to retrieve your location";
   }
+    output.innerHTML = "<p>Locating…</p>";
+    navigator.geolocation.getCurrentPosition(success, error);
+};
 
-  output.innerHTML = "<p>Locating…</p>";
-
-  navigator.geolocation.getCurrentPosition(success, error);
-}
-
-function newLocation(newLat,newLng)
-{
+function newLocation(newLat,newLng) {
 	map.setCenter({"lat":newLat, "lng":newLng});
 }
 
