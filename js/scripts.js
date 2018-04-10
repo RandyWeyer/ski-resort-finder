@@ -7,13 +7,21 @@ function myMap() {
     center:new google.maps.LatLng(userLocation.lat,userLocation.lng),
     zoom:5,
   };
+
   map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
   var marker = new google.maps.Marker({
-    position: userLocation,
+    position: new google.maps.LatLng(userLocation),
     map: map,
     draggable:true,
     title: "Your Location"
+
+    });
+  //dragend event of marker placement
+  google.maps.event.addListener(marker,'dragend',function(){
+    console.log(marker.getPosition().lat());
+    console.log(marker.getPosition().lng());
   });
+
 }
 
 function geoFindMe() {
@@ -32,6 +40,7 @@ function geoFindMe() {
     console.log(userLocation);
   }
 
+
   function error() {
     output.innerHTML = "Unable to retrieve your location";
   }
@@ -45,6 +54,8 @@ function newLocation(newLat,newLng)
 {
 	map.setCenter({"lat":newLat, "lng":newLng});
 }
+
+
 
 
 
