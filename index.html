@@ -10,7 +10,6 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/ski-resorts.js"></script>
-    <script src="js/jq-datatables.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
   </head>
@@ -33,13 +32,13 @@
 
         </div>
 
-          <select id="radius">
+          <select id="radius" onChange='buildDataTable()'>
             <option value="25">25 miles</option>
             <option value="50">50 miles</option>
             <option value="100">100 miles</option>
             <option value="200">200 miles</option>
           </select>
-          
+
           <table id="resort-specs" class="display" width=:100%>
     <thead>
       <tr>
@@ -47,7 +46,7 @@
         <th>Nearest Town</th>
         <th>State</th>
         <th>Base Elevation</th>
-        <th>Vertial Feet</th>
+        <th>Vertical Feet</th>
         <th>Runs</th>
         <th>Website</th>
       </tr>

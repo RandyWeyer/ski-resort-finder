@@ -45,11 +45,48 @@ function newLocation(newLat,newLng)
 	map.setCenter({"lat":newLat, "lng":newLng});
 }
 
+function distance(lat1, lon1, lat2, lon2, unit) {
+        var radlat1 = Math.PI * lat1/180
+        var radlat2 = Math.PI * lat2/180
+        var radlon1 = Math.PI * lon1/180
+        var radlon2 = Math.PI * lon2/180
+        var theta = lon1-lon2
+        var radtheta = Math.PI * theta/180
+        var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+        dist = Math.acos(dist)
+        dist = dist * 180/Math.PI
+        dist = dist * 60 * 1.1515
+        if (unit=="kilometers") { dist = dist * 1.609344 }
+        if (unit=="miles") { dist = dist * 0.8684 }
+        return dist
+}
+
+function buildDataTable() {
+
+  var radiusBox = document.getElementById("radius");
+  radius = radiusBox.options[radiusBox.selectedIndex].value;
+
+  // Destroy previous datatables so a new one can be created in its place
+  if ( $.fn.DataTable.isDataTable( '#resort-specs' ) ) {
+    $("#resort-specs").DataTable().clear();
+    $('#resort-specs').DataTable().destroy();
+  }
+
+  skiData.forEach(function(instance) {
+    if((distance((instance.lat*1),(instance.long*1),(userLocation.lat),(userLocation.lng),"miles"))<radius) {
+      $("#result").append(
+      "<tr><td>" + instance.name + "</td><td>" + instance.nearestTown + "</td><td>" + instance.state + "</td><td>" + (instance.baseElevation*1) + "</td><td>" + (instance.verticalFeet*1) + "</td><td>" + (instance.runs*1) + "</td><td>" + instance.website + "</td></tr>")
+      console.log((distance((instance.lat*1),(instance.long*1),(userLocation.lat),(userLocation.lng),"miles")));
+      }
+    });
+    var skiTable = $('#resort-specs').DataTable({
+
+    });
+
+  };
 
 
 $(document).ready(function(){
-  var radiusBox = document.getElementById("radius");
-  radius = radiusBox.options[radiusBox.selectedIndex].value;
 
   $("#share-location").click(function(event) {
     event.preventDefault();
@@ -60,4 +97,7 @@ $(document).ready(function(){
     event.preventDefault();
     newLocation(userLocation.lat,userLocation.lng);
   });
+
+  buildDataTable();
+
 });
