@@ -1125,7 +1125,7 @@ var skiData = [{
   "nearestTown":"Gatlinburg",
   "state":"Tennessee",
   "lat":35.703056,
-  "long":-83.557778,
+  "long":-83.5525176,
   "baseElevation":2700,
   "verticalFeet":600,
   "runs":10,
