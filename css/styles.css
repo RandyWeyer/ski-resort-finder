@@ -1,3 +1,30 @@
+button {
+  margin: 4px auto 2px auto;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.jumbotron {
+  background-image: url(../img/mountain.jpg);
+  background-size: cover;
+}
+
+.table-style {
+  margin: 50px auto 30px auto;
+}
+
+.web-style {
+  word-break: break-word;
+  vertical-align: top;
+}
+
 #map {
   height: 100%;
+}
+
+#output {
+  min-height: 25px;
+  text-align: center;
 }
