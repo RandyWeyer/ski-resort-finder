@@ -54,7 +54,6 @@ function geoFindMe() {
     userLocation.lng = position.coords.longitude;
 
     output.innerHTML = '<p>Latitude is ' + userLocation.lat + ' <br>Longitude is ' + userLocation.lng + '</p>';
-    console.log(userLocation);
   }
 
   function error() {
@@ -132,14 +131,15 @@ function buildDataTable() {
       var contentString = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-            '<h5 id="firstHeading" class="firstHeading">'+instance.name+'</h5>'+
+            '<h6 id="firstHeading" class="firstHeading"><b>'+instance.name+'</b></h6>'+
             '<div id="bodyContent">'+
-            '<p>'+instance.state+'</p>'+
-            '<p><a href="https://www.google.com/maps/dir/"' + userLocation.lat + ',' + userLocation.lng + '/' + instance.lat + ',' + instance.long + '">Directions</a></td><td><a href="' + instance.website + '>' + instance.website + '</a></p>)</p>' +
+            '<p>'+instance.state+
+            '<br><a href="https://www.google.com/maps/dir/"' + userLocation.lat + ',' + userLocation.lng + '/' + instance.lat + ',' + instance.long + '">Directions</a></td><td><a href="' + instance.website + '>' + instance.website + '</a></p>' +
             '</div>'+
             '</div>';
       var infowindow = new google.maps.InfoWindow({
           content: contentString
+
         });
 
       var latLng = new google.maps.LatLng(instance.lat,instance.long);
