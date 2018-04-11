@@ -1842,7 +1842,7 @@ var skiData = [{
     "long":-107.66529,
     "baseElevation":10400,
     "verticalFeet":3087,
-    "runs":"null",
+    "runs":null,
     "website":"http://silvertonmountain.com/"
   },
 
@@ -2046,7 +2046,7 @@ var skiData = [{
     "long":-114.366,
     "baseElevation":5420,
     "verticalFeet":475,
-    "runs":"null",
+    "runs":null,
     "website":"https://svsef.org/rotarun/"
   },
 
@@ -2191,7 +2191,7 @@ var skiData = [{
     "baseElevation":8200,
     "verticalFeet":1800,
     "runs":45,
-    "website":"null"
+    "website":null
   },
 
   {
@@ -2296,9 +2296,9 @@ var skiData = [{
     "state":"Montana",
     "lat":45.231383,
     "long":-111.451256,
-    "baseElevation":"null",
-    "verticalFeet":"null",
-    "runs":"null",
+    "baseElevation":null,
+    "verticalFeet":null,
+    "runs":null,
     "website":"http://yellowstoneclub.com/"
   },
 
@@ -2346,7 +2346,7 @@ var skiData = [{
     "long":-105.445,
     "baseElevation":9321,
     "verticalFeet":3160,
-    "runs":"null",
+    "runs":null,
     "website":"https://www.skitaos.com/"
   },
 
@@ -2608,7 +2608,7 @@ var skiData = [{
     "state":"Alaska",
     "lat":58.276111,
     "long":-134.515278,
-    "baseElevation":"Null",
+    "baseElevation":null,
     "verticalFeet":1400,
     "runs":34,
     "website":"https://skijuneau.com/"
@@ -2620,7 +2620,7 @@ var skiData = [{
     "state":"Alaska",
     "lat":61.140833,
     "long":-149.745,
-    "baseElevation":"Null",
+    "baseElevation":null,
     "verticalFeet":294,
     "runs":6,
     "website":"http://www.hilltopskiarea.org/"
@@ -3087,7 +3087,7 @@ var skiData = [{
   {
   "name":"49 Degrees North Ski Area",
   "state":"Washington",
-  "nearestTown": "null",
+  "nearestTown": null,
   "lat":48.301,
   "long":-117.563,
   "baseElevation":3923,
@@ -3170,11 +3170,11 @@ var skiData = [{
 
   {
   "name":"Meany Lodge",
-  "nearestTown": "none",
+  "nearestTown": "Stampede Pass",
   "state":"Washington",
   "lat":47.280278,
   "long":-121.320556,
-  "baseElevation":"null",
+  "baseElevation":null,
   "verticalFeet":450,
   "runs":32,
   "website":"http://www.meanylodge.org"
