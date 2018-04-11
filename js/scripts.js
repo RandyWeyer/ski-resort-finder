@@ -5,6 +5,7 @@ var radius;
 function myMap() {
   var mapProp= {
     center:new google.maps.LatLng(userLocation.lat,userLocation.lng),
+    disableDoubleClickZoom: true,
     zoom:5,
     gestureHandling: 'greedy'
 
@@ -28,30 +29,15 @@ function myMap() {
 
   });
 
-  google.maps.event.addListener(map, 'dblclick', function(event) {
-       var positionDoubleclick = event.latLng;
+  google.maps.event.addListener(map, 'dblclick', function(e) {
+       var positionDoubleclick = e.latLng;
        marker.setPosition(positionDoubleclick);
        userLocation.lat = (marker.getPosition().lat());
        userLocation.lng = (marker.getPosition().lng());
        buildDataTable();
-
        console.log(marker.getPosition().lat());
        console.log(marker.getPosition().lng());
-       event.stopPropagation();
-        // event.stopPropagation(); - the map will not zoom in
       });
-
-  // map.addListener('center_changed', function() {
-  //   // 3 seconds after the center of the map has changed, pan back to the marker.
-  //   window.setTimeout(function() {
-  //     map.panTo(marker.getPosition());
-  //   }, 08000);
-  // });
-  //
-  // marker.addListener('click', function() {
-  //   map.setZoom(10);
-  //   map.setCenter(marker.getPosition());
-  // });
 }
 
 function geoFindMe() {
@@ -112,6 +98,13 @@ function buildDataTable() {
 
   skiData.forEach(function(instance) {
     if((distance((instance.lat*1),(instance.long*1),(userLocation.lat),(userLocation.lng),"miles"))<radius) {
+      var latLng = new google.maps.LatLng(instance.lat,instance.long);
+      var marker = new google.maps.Marker({
+        position: latLng,
+        map: map,
+        icon: "img/map-marker-blue.png"
+      });
+
       $("#result").append(
       "<tr><td>" + instance.name + "</td><td>" + instance.nearestTown + "</td><td>" + instance.state + "</td><td>" + (instance.baseElevation*1) + "</td><td>" + (instance.verticalFeet*1) + "</td><td>" + (instance.runs*1) + "</td><td><a href='https://www.google.com/maps/dir/" + userLocation.lat + "," + userLocation.lng + "/" + instance.lat + "," + instance.long + "'>Directions</a></td><td><a href='" + instance.website + "'>" + instance.website + "</a></td></tr>")
       console.log((distance((instance.lat*1),(instance.long*1),(userLocation.lat),(userLocation.lng),"miles")));
