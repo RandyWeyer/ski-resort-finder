@@ -1,6 +1,7 @@
 var map;
 var userLocation = {"lat":45.084722,"lng":-69.905556};
 var radius;
+var resortMarkers = [];
 
 function myMap() {
   var mapProp= {
@@ -24,6 +25,7 @@ function myMap() {
     userLocation.lat = (marker.getPosition().lat());
     userLocation.lng = (marker.getPosition().lng());
     buildDataTable();
+
     console.log(marker.getPosition().lat());
     console.log(marker.getPosition().lng());
 
@@ -85,6 +87,21 @@ function distance(lat1, lon1, lat2, lon2, unit) {
         return dist
 }
 
+function allMarkers(map) {
+  for (i = 0; i < resortMarkers.length; i++) {
+    resortMarkers[i].setMap(map);
+  };
+};
+
+function clearMarkers() {
+  allMarkers(null)
+};
+
+function deleteMarkers() {
+        clearMarkers();
+        resortMarkers = [];
+      }
+
 function buildDataTable() {
 
   var radiusBox = document.getElementById("radius");
@@ -95,8 +112,9 @@ function buildDataTable() {
     $("#resort-specs").DataTable().clear();
     $('#resort-specs').DataTable().destroy();
   }
-
+  deleteMarkers();
   skiData.forEach(function(instance) {
+
     if((distance((instance.lat*1),(instance.long*1),(userLocation.lat),(userLocation.lng),"miles"))<radius) {
       var latLng = new google.maps.LatLng(instance.lat,instance.long);
       var marker = new google.maps.Marker({
@@ -108,8 +126,17 @@ function buildDataTable() {
       $("#result").append(
       "<tr><td>" + instance.name + "</td><td>" + instance.nearestTown + "</td><td>" + instance.state + "</td><td>" + (instance.baseElevation*1) + "</td><td>" + (instance.verticalFeet*1) + "</td><td>" + (instance.runs*1) + "</td><td><a href='https://www.google.com/maps/dir/" + userLocation.lat + "," + userLocation.lng + "/" + instance.lat + "," + instance.long + "'>Directions</a></td><td><a href='" + instance.website + "'>" + instance.website + "</a></td></tr>")
       console.log((distance((instance.lat*1),(instance.long*1),(userLocation.lat),(userLocation.lng),"miles")));
-      }
+
+      resortMarkers.push(marker);
+      console.log(resortMarkers);
+
+
+    }
+
+
     });
+
+
     var skiTable = $('#resort-specs').DataTable({
 
     });

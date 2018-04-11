@@ -1672,8 +1672,8 @@ var skiData = [{
     "state":"Colorado",
     "lat":39.641667,
     "long":-105.871667,
-    "baseElevation":39.641667,
-    "verticalFeet":-105.871667,
+    "baseElevation":10780,
+    "verticalFeet":13050,
     "runs":132,
     "website":"https://www.arapahoebasin.com/"
   },
