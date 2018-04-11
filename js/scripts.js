@@ -1,5 +1,5 @@
 var map;
-var userLocation = {"lat":45.084722,"lng":-69.905556};
+var userLocation = {"lat":40.573096,"lng":-111.798543};
 var radius;
 var resortMarkers = [];
 var infoArr = [];
@@ -44,27 +44,30 @@ function geoFindMe() {
   var output = document.getElementById("output");
     if (!navigator.geolocation){
       output.innerHTML = "<p>Geolocation is not supported by your browser</p>";
+      newLocation(userLocation.lat,userLocation.lng);
       return;
     }
-
-
 
   function success(position) {
     userLocation.lat = position.coords.latitude;
     userLocation.lng = position.coords.longitude;
-
-    output.innerHTML = '<p>Latitude is ' + userLocation.lat + ' <br>Longitude is ' + userLocation.lng + '</p>';
-    console.log(userLocation);
+    output.innerHTML = "";
+    newLocation(userLocation.lat,userLocation.lng);
   }
 
   function error() {
     output.innerHTML = "Unable to retrieve your location";
+    newLocation(userLocation.lat,userLocation.lng);
   }
     output.innerHTML = "<p>Locating…</p>";
     navigator.geolocation.getCurrentPosition(success, error);
 };
 
 function newLocation(newLat,newLng) {
+  userLocation.lat = newLat;
+  userLocation.lng = newLng;
+  myMap();
+  buildDataTable();
 	map.setCenter({"lat":newLat, "lng":newLng});
 }
 
@@ -156,7 +159,7 @@ function buildDataTable() {
         });
 
       $("#result").append(
-      "<tr><td>" + instance.name + "</td><td>" + instance.nearestTown + "</td><td>" + instance.state + "</td><td>" + (instance.baseElevation*1) + "</td><td>" + (instance.verticalFeet*1) + "</td><td>" + (instance.runs*1) + "</td><td><a href='https://www.google.com/maps/dir/" + userLocation.lat + "," + userLocation.lng + "/" + instance.lat + "," + instance.long + "'>Directions</a></td><td><a href='" + instance.website + "'>" + instance.website + "</a></td></tr>")
+      "<tr><td>" + instance.name + "</td><td>" + instance.nearestTown + "</td><td>" + instance.state + "</td><td>" + (instance.baseElevation*1) + "</td><td>" + (instance.verticalFeet*1) + "</td><td>" + (instance.runs*1) + "</td><td><a href='https://www.google.com/maps/dir/" + userLocation.lat + "," + userLocation.lng + "/" + instance.lat + "," + instance.long + "'>Directions</a></td><td><a class='web-style' href='" + instance.website + "'>" + instance.website + "</a></td></tr>")
       console.log((distance((instance.lat*1),(instance.long*1),(userLocation.lat),(userLocation.lng),"miles")));
 
       resortMarkers.push(marker);
@@ -167,20 +170,10 @@ function buildDataTable() {
     var skiTable = $('#resort-specs').DataTable({
     });
   };
-
-
 $(document).ready(function(){
-
   $("#share-location").click(function(event) {
     event.preventDefault();
-
     geoFindMe();
   });
-  $("#change-location").click(function(event) {
-    event.preventDefault();
-    newLocation(userLocation.lat,userLocation.lng);
-  });
-
-  buildDataTable();
-
+      buildDataTable();
 });
