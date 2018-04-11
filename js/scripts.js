@@ -28,12 +28,16 @@ function myMap() {
 
   });
 
-  google.maps.event.addListener(map, 'dblclick', function(e) {
-        var positionDoubleclick = e.latLng;
-        marker.setPosition(positionDoubleclick);
-        console.log(marker.getPosition().lat());
-        console.log(marker.getPosition().lng());
+  google.maps.event.addListener(map, 'dblclick', function(event) {
+       var positionDoubleclick = event.latLng;
+       marker.setPosition(positionDoubleclick);
+       userLocation.lat = (marker.getPosition().lat());
+       userLocation.lng = (marker.getPosition().lng());
+       buildDataTable();
 
+       console.log(marker.getPosition().lat());
+       console.log(marker.getPosition().lng());
+       event.stopPropagation();
         // event.stopPropagation(); - the map will not zoom in
       });
 
