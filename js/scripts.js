@@ -138,7 +138,7 @@ function buildDataTable() {
             '<h5 id="firstHeading" class="firstHeading">'+instance.name+'</h5>'+
             '<div id="bodyContent">'+
             '<p>'+instance.state+
-            '<br><a href="https://www.google.com/maps/dir/"' + userLocation.lat + ',' + userLocation.lng + '/' + instance.lat + ',' + instance.long + '">Directions</a></td><td><a href="' + instance.website + '>' + instance.website + '</a></p>' +
+            '<br><a href="https://www.google.com/maps/dir/' + userLocation.lat + ',' + userLocation.lng + '/' + instance.lat + ',' + instance.long + '">Directions</a></td><br><td><a href="' + instance.website + '">' + instance.website + '</a></p>' +
             '</div>'+
             '</div>';
       var infowindow = new google.maps.InfoWindow({
