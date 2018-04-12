@@ -1,15 +1,27 @@
 # Ski Resort Finder
+<img src="snowboarding.jpeg" align="right" />
 
-#### _Ski Resort Finder, 04/09/2018_
+#### _Ski Resort Locator, 04/09/2018_ [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ### By _**Randy Weyer, Brian Henry, Justin Roller, Dave Tumpowsky**_
 
 ## Description
-This website allows users to locate the closest ski resort.
+This website allows users to locate the closest ski resort from their current location or any location they want to start from.
+
+### Specs
+| Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+| **Homepage** | User accesses one of our Repository's | ski-resort-finder.html|
+| **Main Menu** | Map start location is Salt Lake City | Ski Resorts of Salt Lake City are shown and can be explored. |
+| **Program gathers user input**| User Input: Clicks share location to get your exact coordinates of where you are.  | Output: Shows ski resorts within 50 mile radius of your location to start. |
+| **Program map can be dragged and changed to look in anywhere for a Ski Resort in Continental US**| Input: "drags balloon to North Dakota" | Output: "Huff Hills shows up with all info" |
+| **User clicks on Directions and website** | Input: "Clicks Directions" "Clicks resorts website" | Output: "Directs you to google maps and shows you exact directions from where your balloon is located" "Directs you to resorts website so you can explore and book a vacation" |
 
 ## SetUp/Installation
 * _Clone repository from GitHub._
 * _Click to open HTML file on browser_
+* _Get your current location with share location_
+* _Explore and enjoy, and find your nearest Resort or any Resort in the Continental US._
 
 ## Technology Used
 * HTML
@@ -21,9 +33,12 @@ This website allows users to locate the closest ski resort.
 ## Known Bugs
 * _No Known Bugs_
 
-## Specs
-*_Locate User GPS_
-*_Locate closest ski resort_
+## Support and contact details
+
+_justinrllr@yahoo.com - Justin Roller_
+_randypweyer@gmail.com - Randy Weyer_
+_94brianhenry@gmail.com - Brian Henry_
+_tumpowskydavid@gmail.com - Dave Tumpowsky_
 
 ### License
 Copyright (c) 2018 Randy Weyer, Brian Henry, Justin Roller, Dave Tumpowsky.
