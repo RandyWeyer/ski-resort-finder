@@ -13,9 +13,9 @@ This website allows users to locate the closest ski resort from their current lo
 | :-------------     | :------------- | :------------- |
 | **Homepage** | User accesses one of our Repository's | ski-resort-finder.html|
 | **Main Menu** | Map start location is Salt Lake City | Ski Resorts of Salt Lake City are shown and can be explored. |
-| **Program gathers user input**| User Input: Clicks share location to get your exact coordinates of where you are.  | Output: Shows ski resorts within 50 mile radius of your location to start. |
-| **Program map can be dragged and changed to look in anywhere for a Ski Resort in Continental US**| Input: "drags balloon to North Dakota" | Output: "Huff Hills shows up with all info" |
-| **User clicks on Directions and website** | Input: "Clicks Directions" "Clicks resorts website" | Output: "Directs you to google maps and shows you exact directions from where your balloon is located" "Directs you to resorts website so you can explore and book a vacation" |
+| **Program gathers user input**| User Input: Clicks "Share Location" button to get the exact coordinates of where you are.  | Output: Shows ski resorts within 50 mile radius of your location to start. |
+| **Program map can be dragged and changed to look in anywhere for a Ski Resort in US**| Input: "Drags pin to North Dakota" | Output: "Huff Hills shows up with all info" |
+| **User clicks on Directions and website** | Input: "Clicks Directions" "Clicks resorts website" | Output: "Directs you to google maps and shows you exact directions from where your pin is located" "Directs you to resorts website so you can explore and book a vacation" |
 
 ## SetUp/Installation
 * _Clone repository from GitHub._
@@ -41,5 +41,5 @@ This website allows users to locate the closest ski resort from their current lo
 * _tumpowskydavid@gmail.com - David Tumpowsky_
 
 ### License
-Copyright (c) 2018 Randy Weyer, Brian Henry, Justin Roller, Dave Tumpowsky.
+Copyright (c) 2018 Randy Weyer, Brian Henry, Justin Roller, David Tumpowsky.
 This software is licensed under the MIT license.
