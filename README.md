@@ -1,9 +1,7 @@
-<img src="skiing.png" align="right"/>
-
 # Ski Resort Finder
 
 
-#### _Ski Resort Locator, 04/09/2018_ [![Version 1.0](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]()
+#### _Ski Resort Locator, 04/09/2018_
 
 ### By _**Randy Weyer, Brian Henry, Justin Roller, David Tumpowsky**_
 
