@@ -1,9 +1,9 @@
 # Ski Resort Finder
 <img src="snowboarding.jpeg" align="right" />
 
-#### _Ski Resort Locator, 04/09/2018_ [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+#### _Ski Resort Locator, 04/09/2018_ [![Version 1.0](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]()
 
-### By _**Randy Weyer, Brian Henry, Justin Roller, Dave Tumpowsky**_
+### By _**Randy Weyer, Brian Henry, Justin Roller, David Tumpowsky**_
 
 ## Description
 This website allows users to locate the closest ski resort from their current location or any location they want to start from.
@@ -35,10 +35,10 @@ This website allows users to locate the closest ski resort from their current lo
 
 ## Support and contact details
 
-_justinrllr@yahoo.com - Justin Roller_
-_randypweyer@gmail.com - Randy Weyer_
-_94brianhenry@gmail.com - Brian Henry_
-_tumpowskydavid@gmail.com - Dave Tumpowsky_
+*_justinrllr@yahoo.com - Justin Roller_
+*_randypweyer@gmail.com - Randy Weyer_
+*_94brianhenry@gmail.com - Brian Henry_
+*_tumpowskydavid@gmail.com - David Tumpowsky_
 
 ### License
 Copyright (c) 2018 Randy Weyer, Brian Henry, Justin Roller, Dave Tumpowsky.
