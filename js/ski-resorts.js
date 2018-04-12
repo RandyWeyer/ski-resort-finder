@@ -2353,7 +2353,7 @@ var skiData = [{
   {
     "name":"Alta",
     "nearestTown":"Salt Lake City",
-    "state":"UT",
+    "state":"Utah",
     "lat":40.580833,
     "long":-111.637222,
     "baseElevation":8530,
