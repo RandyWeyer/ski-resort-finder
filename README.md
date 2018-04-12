@@ -1,4 +1,4 @@
-<img src="../img/skiing.png" align="right"/>
+<img src="skiing.png" align="right"/>
 
 # Ski Resort Finder
 
